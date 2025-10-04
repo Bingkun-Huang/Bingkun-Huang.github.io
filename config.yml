@@ -55,7 +55,7 @@ params:
     profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "<br>I am an MSc student in Mechatronics and Robotics at the Technical University of Munich. I previously earned a B.Eng in the same field from Bauman Moscow State Technical University. <br><br> Currently, I am a student research assistant at Munich Institute of Robotics and Machine Intelligence (MIRMI). My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br><br> [News]<br> ● I will start an Embedded Software Engineer internship at Infineon Technologies in November 2025. <br>● Submitted a paper to ICRA 2026."
+        subtitle: "<br>➢I am an MSc student in Mechatronics and Robotics at the Technical University of Munich. I previously earned a B.Eng in the same field from Bauman Moscow State Technical University. <br><br> ➢Currently, I am a student research assistant at Munich Institute of Robotics and Machine Intelligence (MIRMI). My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br><br> [News]<br> •I will start an Embedded Software Engineer internship at Infineon Technologies in November 2025. <br>• Submitted a paper to ICRA 2026."
         imageUrl: "profile.jpg"
         imageWidth: 200
         imageHeight: 200
