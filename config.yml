@@ -75,6 +75,8 @@ params:
             - name: Blog
               url: blog/
     socialIcons:
+        - name: E-mail
+          url: bingkun.me@outlook.com
         - name: LinkedIn
           url: https://www.linkedin.com/in/bingkun-huang
         - name: GitHub
