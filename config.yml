@@ -55,10 +55,10 @@ params:
     profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the Technical University of Munich. Previously, I obtained a B.Eng in Mechatronics and Robotics from Bauman Moscow State Technical University. My research interests include robot motion planning, reinforcement learning, and mechatronic system design."
+        subtitle: "I am an MSc student in Mechatronics and Robotics at the Technical University of Munich. I previously earned a B.Eng in the same field from Bauman Moscow State Technical University. <br> Currently, I am a student research assistant at TUM’s Institute of Robotics and Machine Intelligence (MIRMI). <br> My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br> [News]"
         imageUrl: "profile.jpg"
-        imageWidth: 160
-        imageHeight: 160
+        imageWidth: 300
+        imageHeight: 300
         buttons:
             - name: Papers
               url: papers/
