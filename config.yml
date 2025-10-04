@@ -1,124 +1,20 @@
 baseURL: "https://Bingkun-Huang.github.io"
+title: Bingkun HUANG
 theme: PaperMod
-
-# —— 多语言开关 ——
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
-# PaperMod 会在多语言时自动显示语言切换器
-params:
-  ShowLanguageSwitcher: true
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-
 pagination:
   pagerSize: 20
 
 taxonomies:
-  tag: tags
+    tag: tags
 
-# —— 全局通用参数（各语言未覆盖时生效） ——
-# 说明：若某字段同时在 languages.*.params 中定义，则以语言内定义为准
-params:
-  description: "This website hosts Bingkun Huang's research papers, projects, course materials, data, curriculum vitae, and contact information."
-  author: Bingkun Huang
-  # googleAnalyticsID: "G-XXXXX"
-  DateFormat: "January 2006"
-  defaultTheme: light
-  hideFooter: false
-  disableThemeToggle: true
-  ShowShareButtons: false
-  ShowReadingTime: false
-  disableSpecial1stPost: true
-  disableAnchoredHeadings: true
-  ShowPostNavLinks: false
-  ShowBreadCrumbs: false
-  ShowCodeCopyButtons: true
-  ShowAllPagesInArchive: false
-  MainSections: ["books","courses","papers","data"]  # 如需把 News 汇总到归档，可加 "news"
-  ShowToc: false
-  disableScrollToTop: true
-  TocOpen: true
-  ShowWordCount: false
-  UseHugoToc: true
-  comments: false
-  math: true
-
-  # 社交图标（各语言通用）
-  socialIcons:
-    - name: Email
-      url: mailto:bingkun.huang@tum.de
-    - name: LinkedIn
-      url: https://www.linkedin.com/in/bingkun-huang
-    - name: GitHub
-      url: https://github.com/Bingkun-Huang
-    - name: Google Scholar
-      url: https://scholar.google.com/citations?user=-5xsb74AAAAJ&hl
-    - name: Instagram
-      url: https://www.instagram.com/_bingkun/
-
-  assets:
-    disableScrollBarStyle: true
-
-  cover:
-    hiddenInList: false
-    hiddenInSingle: true
-
-  label:
-    text: "Bingkun HUANG"
-    icon: favicon.ico
-    iconHeight: 18
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    guessSyntax: true
-    style: autumn
-  tableOfContents:
-    endLevel: 2
-    ordered: false
-    startLevel: 2
-
-# —— 各语言配置 ——
-languages:
-
-  en:
-    languageName: English
-    weight: 1
-    title: "Bingkun HUANG"
-    params:
-      # 头像 & 简介（支持 HTML / <br> / <small> / <b>）
-      profileMode:
-        enabled: true
-        title: Bingkun HUANG
-        subtitle: "<br>➢ I am an <b>MSc student in Mechatronics and Robotics</b> at the <b>Technical University of Munich</b>. I previously earned a <b>B.Eng in the same field</b> from <b>Bauman Moscow State Technical University</b>.<br><br>➢ Currently, I am a <b>student research assistant</b> at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. My research interests include <b>Robot Motion Planning</b>, Reinforcement Learning, and Embedded System Design.<br><br><b>[News]</b><br><small>• I will start an Embedded Software Engineer internship at Infineon Technologies from 01.11.2025.</small><br><small>• Submitted a paper to ICRA 2026.</small><br><br><br>Thank you for visiting my webpage!"
-        imageUrl: "profile.jpg"
-        imageWidth: 200
-        imageHeight: 200
-        buttons:
-          - name: News
-            url: news/
-          - name: Papers
-            url: papers/
-          - name: Data
-            url: data/
-          - name: Books
-            url: books/
-          - name: Courses
-            url: courses/
-          - name: Tags
-            url: tags/
-          - name: Archive
-            url: archive/
-          - name: Blog
-            url: blog/
-    menu:
-      main:
-        - name: News
-          url: news/
-          weight: 1
+menu:
+    main:
+        - name: Books
+          url: books/
+          weight: 5
         - name: Papers
           url: papers/
           weight: 2
@@ -128,159 +24,85 @@ languages:
         - name: Data
           url: data/
           weight: 4
-        - name: Books
-          url: books/
-          weight: 5
         - name: Blog
           url: blog/
           weight: 6
 
-  zh:
-    languageName: 中文
-    weight: 2
-    title: "Bingkun HUANG"
-    params:
-      profileMode:
-        enabled: true
-        title: 黄炳坤（Bingkun HUANG）
-        subtitle: "<br>➢ 我是 <b>慕尼黑工业大学</b> <b>机电一体化与机器人</b> 专业的硕士研究生；本科在 <b>莫斯科鲍曼国立技术大学</b> 获得同一专业的 <b>工学学士</b>。<br><br>➢ 目前在 <b>MIRMI（慕尼黑机器人与机器智能研究所）</b> 担任<b>科研助理</b>。研究兴趣包括 <b>机器人运动规划</b>、强化学习与嵌入式系统设计。<br><br><b>[新闻]</b><br><small>• 将于 2025-11-01 在英飞凌（Infineon Technologies）开始嵌入式软件工程师实习。</small><br><small>• 已向 ICRA 2026 提交论文。</small>"
-        imageUrl: "profile.jpg"
-        imageWidth: 200
-        imageHeight: 200
-        buttons:
-          - name: 新闻
-            url: news/
-          - name: 论文
-            url: papers/
-          - name: 数据
-            url: data/
-          - name: 书籍
-            url: books/
-          - name: 课程
-            url: courses/
-          - name: 标签
-            url: tags/
-          - name: 归档
-            url: archive/
-          - name: 博客
-            url: blog/
-    menu:
-      main:
-        - name: 新闻
-          url: news/
-          weight: 1
-        - name: 论文
-          url: papers/
-          weight: 2
-        - name: 课程
-          url: courses/
-          weight: 3
-        - name: 数据
-          url: data/
-          weight: 4
-        - name: 书籍
-          url: books/
-          weight: 5
-        - name: 博客
-          url: blog/
-          weight: 6
-
-  ru:
-    languageName: Русский
-    weight: 3
-    title: "Бинкунъ Хуан"
-    params:
-      profileMode:
-        enabled: true
-        title: Бинкунъ Хуан (Bingkun HUANG)
-        subtitle: "<br>➢ Я магистрант по специальности <b>мехатроника и робототехника</b> в <b>Техническом университете Мюнхена</b>. Ранее получил степень <b>B.Eng по той же специальности</b> в <b>МГТУ им. Н. Э. Баумана</b>.<br><br>➢ В настоящее время работаю <b>научным ассистентом</b> в <b>MIRMI</b>. Мои научные интересы: <b>планирование движений роботов</b>, обучение с подкреплением и проектирование встроенных систем.<br><br><b>[Новости]</b><br><small>• С 01.11.2025 начинаю стажировку Embedded Software Engineer в Infineon Technologies.</small><br><small>• Подана статья на ICRA 2026.</small>"
-        imageUrl: "profile.jpg"
-        imageWidth: 200
-        imageHeight: 200
-        buttons:
-          - name: Новости
-            url: news/
-          - name: Публикации
-            url: papers/
-          - name: Данные
-            url: data/
-          - name: Книги
-            url: books/
-          - name: Курсы
-            url: courses/
-          - name: Теги
-            url: tags/
-          - name: Архив
-            url: archive/
-          - name: Блог
-            url: blog/
-    menu:
-      main:
-        - name: Новости
-          url: news/
-          weight: 1
-        - name: Публикации
-          url: papers/
-          weight: 2
-        - name: Курсы
-          url: courses/
-          weight: 3
-        - name: Данные
-          url: data/
-          weight: 4
-        - name: Книги
-          url: books/
-          weight: 5
-        - name: Блог
-          url: blog/
-          weight: 6
-
-  de:
-    languageName: Deutsch
-    weight: 4
-    title: "Bingkun HUANG"
-    params:
-      profileMode:
+params:
+    description: "This website hosts Bingkun Huang's research papers, projects, course materials, data, curriculum vitae, and contact information."
+    author: Bingkun Huang
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "<br>➢ Ich bin <b>M.Sc.-Student für Mechatronik und Robotik</b> an der <b>Technischen Universität München</b>. Zuvor habe ich meinen <b>B.Eng im selben Fachgebiet</b> an der <b>Bauman Moscow State Technical University</b> erworben.<br><br>➢ Derzeit arbeite ich als <b>wissenschaftliche Hilfskraft</b> am <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. Forschungsinteressen: <b>Robot Motion Planning</b>, Reinforcement Learning und Embedded System Design.<br><br><b>[Neuigkeiten]</b><br><small>• Ab 01.11.2025 beginne ich ein Praktikum als Embedded Software Engineer bei Infineon Technologies.</small><br><small>• Paper bei ICRA 2026 eingereicht.</small>"
+        subtitle: "<br>➢ I am an MSc student in Mechatronics and Robotics at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢ Currently, I am a student research assistant at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br><br> <b>[News]</b><br>  <small>• I will start an Embedded Software Engineer internship at Infineon Technologies from 01.11.2025. </small> <br>•  <small>Submitted a paper to ICRA 2026. </small> <br><br><br>Thank you for visitng my webpage!"
         imageUrl: "profile.jpg"
         imageWidth: 200
         imageHeight: 200
         buttons:
-          - name: Neuigkeiten
-            url: news/
-          - name: Publikationen
-            url: papers/
-          - name: Daten
-            url: data/
-          - name: Bücher
-            url: books/
-          - name: Lehrveranstaltungen
-            url: courses/
-          - name: Tags
-            url: tags/
-          - name: Archiv
-            url: archive/
-          - name: Blog
-            url: blog/
-    menu:
-      main:
-        - name: Neuigkeiten
-          url: news/
-          weight: 1
-        - name: Publikationen
-          url: papers/
-          weight: 2
-        - name: Lehrveranstaltungen
-          url: courses/
-          weight: 3
-        - name: Daten
-          url: data/
-          weight: 4
-        - name: Bücher
-          url: books/
-          weight: 5
-        - name: Blog
-          url: blog/
-          weight: 6
+            - name: Papers
+              url: papers/
+            - name: Data
+              url: data/
+            - name: Books
+              url: books/
+            - name: Courses
+              url: courses/
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
+            - name: Blog
+              url: blog/
+    socialIcons:
+        - name: Email
+          url: mailto:bingkun.huang@tum.de
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/bingkun-huang
+        - name: GitHub
+          url: https://github.com/Bingkun-Huang
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=-5xsb74AAAAJ&hl
+        - name: Instagram
+          url: https://www.instagram.com/_bingkun/
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+        text: "Bingkun HUANG"
+        icon: favicon.ico
+        iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
