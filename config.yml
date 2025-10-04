@@ -56,7 +56,7 @@ params:
         enabled: true
         title: Bingkun HUANG
         subtitle: "I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the Technical University of Munich. Previously, I obtained a B.Eng in Mechatronics and Robotics from Bauman Moscow State Technical University. My research interests include robot motion planning, reinforcement learning, and mechatronic system design."
-        imageUrl: "profile.jpg"
+        imageUrl: "profile.jpeg"
         imageWidth: 160
         imageHeight: 160
         buttons:
