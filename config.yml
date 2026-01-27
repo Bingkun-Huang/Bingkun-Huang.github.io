@@ -10,23 +10,6 @@ pagination:
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4
-        - name: Blog
-          url: blog/
-          weight: 6
 
 params:
     description: "This website hosts Bingkun Huang's research papers, projects, course materials, data, curriculum vitae, and contact information."
