@@ -38,8 +38,24 @@ params:
     profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "<br>➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢ Currently, I am a student research assistant at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b> and an Embedded Engineer Intern at Infineon Technologies, responsible for robotics prototype development.  My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br><br> <b>[News]</b><br>  <small>• I will start an Embedded Software Engineer internship at Infineon Technologies from 01.11.2025. </small> <br>•  <small>Submitted a paper to ICRA 2026. </small> <br><br><br>Thank you for visitng my webpage!"
-        imageUrl: "profile 2.jpg"
+    subtitle: |
+      <br>
+      ➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>.
+      I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>.
+      <br><br>
+  
+      ➢ Currently, I am a student research assistant at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>
+      and an Embedded Engineer Intern at <b>Infineon Technologies</b>, responsible for robotics prototype development.
+      My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.
+      <br><br>
+  
+      <b>[News]</b><br>
+      <small>• I will start an Embedded Software Engineer internship at <b>Infineon Technologies</b> from 01.11.2025.</small><br>
+      <small>• Submitted a paper to ICRA 2026.</small>
+      <br><br><br>
+  
+      Thank you for visiting my webpage!
+    imageUrl: "profile 2.jpg"
         imageWidth: 200
         imageHeight: 200
     socialIcons:
