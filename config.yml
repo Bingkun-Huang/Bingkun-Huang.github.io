@@ -38,9 +38,10 @@ params:
     profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "<br>➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢ Currently, I am a student research assistant at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. <br> In parallel, I am also an Embedded Engineer at <b> Infineon Technologies</b>, focusing on robotics prototype development. My interests include Robot Motion Planning, Robot Learning, Robot D and Embedded System Design.<br><br> <b>[News]</b><br>  <small>• Submitted a paper to 17th World Symposium on the Algorithmic Foundations of Robotics (WAFR 2026). </small> <br>•  <small> a paper accepted to ICRA 2026. </small> <br><br><br>Thank you for visitng my webpage!"
-        imageUrl: "bingkun.jpg"
+        subtitle: "<br>➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢ Currently, I am a student research assistant at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. My research interests include Robot Motion Planning, Reinforcement Learning, and Embedded System Design.<br><br> <b>[News]</b><br>  <small>• I will start an Embedded Software Engineer internship at Infineon Technologies from 01.11.2025. </small> <br>•  <small>Submitted a paper to ICRA 2026. </small> <br><br><br>Thank you for visitng my webpage!"
+        imageUrl: "bingkun.jpeg"
         imageWidth: 200
+        imageHeight: 200
     socialIcons:
         - name: Email
           url: mailto:bingkun.huang@tum.de
