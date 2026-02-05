@@ -38,7 +38,7 @@ params:
     profileMode:
         enabled: true
         title: Bingkun HUANG
-        subtitle: "<br>➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢ Currently, I am an Embedded System Engineer intern at <b>Infineon Technologies</b>, focusing on robotic prototype development. <br><br> ➢ In Parallel, I am a student researcher at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. <br><br> ➢ My interests include Robot Motion Planning, Robot Learning, Robot Dynamics, and Embedded System Design.<br><br> <b>[News]</b> <br>•  <small>Paper, accepted in ICRA 2026. </small> <br>•  <small>Paper, submitted to WAFR 2026. </small> <br><br><br>Thank you for visiting my webpage!"
+        subtitle: "<br>➢ I am an MSc student in Mechatronics, Robotics and Biomechanical Engineering at the <b>Technical University of Munich</b>. I previously earned a B.Eng in the same field from <b>Bauman Moscow State Technical University</b>. <br><br> ➢In parallel, I am also an Embedded System Engineer intern at <b>Infineon Technologies</b>, focusing on robotic prototype development. <br><br> ➢ Currently, I am a student researcher at <b>Munich Institute of Robotics and Machine Intelligence (MIRMI)</b>. <br><br> ➢ My interests include Robot Motion Planning, Robot Learning, Robot Dynamics, and Embedded System Design.<br><br> <b>[News]</b> <br>•  <small>Paper, accepted in ICRA 2026. </small> <br>•  <small>Paper, submitted to WAFR 2026. </small> <br><br><br>Thank you for visiting my webpage!"
         imageUrl: "bingkun.jpeg"
         imageWidth: 200
         imageHeight: 200
